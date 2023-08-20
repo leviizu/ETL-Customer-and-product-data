@@ -15,3 +15,7 @@ My Observations: 1-CDWAE-assessement:
 ● The also contains information about the device used to perform the scan, such as the screen height and width, and the number of pixels per millimeter.
 ● The file tends to represent one unique scan/capture
 ● Each Json object/string represents a data point of the scan/capture
+
+
+ETL-ed customer data from different countries, with different phone number formats, different languages, non ascii characters, numbers and punctuation marks in between names, typo errors and duplicated data
+ETL-ed Json type product data from a digital Xray machine into a structured  format.
