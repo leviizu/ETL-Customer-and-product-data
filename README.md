@@ -1,8 +1,9 @@
 ## ETL-Customer-and-product-data
 
-These datasets arrive at Staging/Bronze environments. Prepare and Transform them as needed to a normalized/Silver environment, per you best judgment, in a system of your choice. Share your script/screenshot of how you accomplish data transformations. Briefly explain your observations.
+The raw_customer_data.csv and raw_customer_data.csv datasets arrive at Staging/Bronze environments. The goal is to Prepare and Transform them as needed to a normalized/Silver environment.
+The cleaning and transformation was done using python; funnctions were defined to handle the different anomalies that arose:
 
-My Observations: 1-CDWAE-assessement:
+###1-CDWAE-assessement:
 - The file seem to contain names of customers
 ● The names seem to be coming from different countries as some had non ascii characters this will be normalized using unidecode
 ● Some Names had numbers and punctuation marks
